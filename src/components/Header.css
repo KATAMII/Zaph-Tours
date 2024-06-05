@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.HeaderContainer {
+  width: 100%;
+  color: black;
+  font-family: 'Poppins', sans-serif;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 2em;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.logo {
+  font-size: 1em;
+  font-family: 'Playfair Display',sans-serif;
+  color: var(--color2);
+}
+
+.navLinks {
+  display: flex;
+  justify-content: center;
+}
+
+.navlist {
+  display: flex;
+  gap: 2em;
+  list-style: none;
+}
+
+.navitems a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+  padding: 3px;
+  padding-top: 4px;
+  border-radius: 5px;
+}
+
+.navitems a:hover {
+  color: var(--secondary-color);
+  background-color: var(--color2);
+  
+}
+
+.search {
+  display: flex;
+  align-items: center;
+}
+
+.search form {
+  display: flex;
+  align-items: center;
+  border-radius: 50px;
+  overflow: hidden;
+  background: black;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.search input {
+  padding: 0.5em 1em;
+  border: none;
+  outline: none;
+  border-radius: 50px 0 0 50px;
+ 
+}
+
+.search button {
+  padding: 0.5em 1em;
+  border: none;
+  background: var(--color2);
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 0 50px 50px 0;
+  transition: background 0.3s ease;
+}
+
+.search button:hover {
+  background: #feb47b;
+}
+
+.search input::placeholder {
+  color: #bbb;
+}
+
+.searchIcon {
+  padding: 0 0.5em;
+  color: #bbb;
+}
