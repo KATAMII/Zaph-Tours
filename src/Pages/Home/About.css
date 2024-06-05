@@ -1,0 +1,67 @@
+.aboutsection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin-top: 2rem;
+    background-color: #fffffc;
+    height: 70vh;
+   
+}
+.abtimg{
+    width: 50%;
+    height: 70vh;
+    margin-right: 3rem;
+    position: relative;
+    overflow: hidden; 
+   
+}
+.abtimg img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    border-radius: 25px;  
+    transition: translate 0.2s ease-in-out;
+}
+.abtText{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -1rem;
+    padding: 5px;
+    gap: 1rem;
+    width: 50%;
+    height: 70vh;
+    border-radius: 25px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+   /* background-color: rgb(50, 28, 14);*/
+}
+.abttitle{
+   text-align: center;
+}
+.location{
+    font-size: 1.5rem;
+    margin-left: 2rem;
+}
+.location svg{
+    fill: var(--color2);
+}
+.location1{
+    font-size: 1.2rem;
+    text-align: left;
+    margin-left: 2rem;
+}
+#btnabt{
+    margin-top: 2rem;
+    width: 25vh;
+    border-radius: 10px;  
+}
+.btn2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
