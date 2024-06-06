@@ -1,0 +1,74 @@
+.featuresSection {
+    margin-top: 5rem;
+    height: 60vh;
+  }
+  
+  .destinations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .feature {
+    margin-left: 2rem;
+  }
+  
+  .featurecontent {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    height: 50vh;
+    width: 40vh;
+    border-radius: 10px;
+    margin-left: 2rem;
+    position: relative;
+    overflow: hidden; /* Ensure the image doesn't overflow the container */
+  }
+  
+  .featurecontent img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover; 
+    border-radius: 10px;
+    z-index: -1; 
+  }
+  
+  .title {
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    padding: 5px;
+    width: 33vh;
+    border-radius: 5px;
+    line-height: 1.5rem;
+    text-align: center;
+  }
+  
+  .featureTitle {
+    font-size: 1.5rem;
+    padding: 2px;
+    font-weight: 600;
+  }
+  
+  .loveicon {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    font-size: 2rem;
+    color: red;
+  }
+  
+  .locator {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
