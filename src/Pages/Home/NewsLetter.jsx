@@ -4,12 +4,12 @@ import '../Home/NewsLetter.css';
 function NewsLetter() {
   return (
     <div className='NewsletterSection'>
-       <h3 className="newslet">Get more out of your newsletter</h3>
+       <h5 className="newslet">Get more out of your newsletter</h5>
        <form >
             <input type="text" placeholder='Email' />
-            <button type='button'>Signup for Free</button>
+            <button type='button'>Subscribe</button>
        </form>
-       <p>No strings attached - No Credit card required</p>
+       <p className='news'>No strings attached - No Credit card required</p>
     </div>
   )
 }

@@ -1,23 +1,87 @@
-.NewsletterSection{
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+.NewsletterSection {
     margin-top: 5rem;
-    border: 2px black solid;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 40vh;
-    gap: 1rem;
+    padding: 2rem;
+    background-color: #f8f9fa; 
+    border-radius: 10px;
+    box-shadow: -3px -5px 5px 0px rgba(0,0,0,0.46);
+    width: 80%;
+    max-width: 600px;
+    margin: 5rem auto; 
+    font-family: 'Roboto', sans-serif;
 }
-.newslet{
-    margin-top: 2rem;
-    font-size: 2rem;
+
+.newslet {
+    margin-top: 1rem;
+    font-size: 1.75rem;
+    color: #333;
+    text-align: center;
+    font-weight: 500;
 }
-form{
-   
-    padding: 1px;
+
+form {
     display: flex;
-    gap: 2rem;
+    gap: 1rem;
+    margin-top: 1.5rem;
+    width: 100%;
+    justify-content: center;
 }
-form input{
-    padding: 1rem;
+
+form input {
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    flex: 1;
+    max-width: 300px; 
+}
+
+form button {
+    font-size: 1rem;
+    padding: 0.75rem 1rem;
+    border-radius: 5px;
+    background-color: #007bff; 
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #0056b3; 
+}
+
+.news {
+    font-size: 1rem;
+    font-style: italic;
+    color: #555;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+
+@media (max-width: 768px) {
+    .NewsletterSection {
+        padding: 1rem;
+        width: 90%;
+    }
+
+    form {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    form input {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    form button {
+        width: 100%;
+    }
 }
