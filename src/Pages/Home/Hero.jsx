@@ -1,6 +1,7 @@
 import React from 'react'
 import '../Home/Hero.css'
 
+
 function Hero() {
   return (
     <div className='heroSection'>

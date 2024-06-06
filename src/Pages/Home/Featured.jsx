@@ -6,8 +6,9 @@ import { IoLocationOutline } from "react-icons/io5";
 import mtruwenzori from '../../assets/ruwenzori.jpeg'
 import lakeNakuru from '../../assets/nakuru.jpeg';
 import nairobipark from '../../assets/nairobi.jpeg';
-import tsavo from '../../assets/Tsavo.jpeg';
+import tsavo from '../../assets/tsavoImg.jpeg';
 import coast from '../../assets/Lamu.jpeg';
+
 
 
 function Featured() {
@@ -24,7 +25,9 @@ function Featured() {
             <h5 className='featureTitle'>Mount Kenya</h5>
             <p className="locator">
               <IoLocationOutline /> Central Kenya
+              <p className="cost">$2000</p>
             </p>
+          
           </div>
         </div>
         <div className="featurecontent">
@@ -36,7 +39,9 @@ function Featured() {
             <h5 className='featureTitle'>Mt.Ruwenzori</h5>
             <p className="locator">
               <IoLocationOutline /> Western Uganda
+              <p className="cost">$2000</p>
             </p>
+            
           </div>
         </div>
         <div className="featurecontent">
@@ -48,7 +53,9 @@ function Featured() {
             <h5 className='featureTitle'>Lake Nakuru</h5>
             <p className="locator">
               <IoLocationOutline /> Nakuru
+              <p className="cost">$2000</p>
             </p>
+            
           </div>
         </div>
         <div className="featurecontent">
@@ -60,7 +67,9 @@ function Featured() {
             <h5 className='featureTitle'>Nairobi National Park</h5>
             <p className="locator">
               <IoLocationOutline />Nairobi Kenya
+              <p className="cost">$2000</p>
             </p>
+            
           </div>
         </div>
         <div className="featurecontent">
@@ -72,7 +81,9 @@ function Featured() {
             <h5 className='featureTitle'>Coastal Kenya</h5>
             <p className="locator">
               <IoLocationOutline /> Mombasa Kenya
+              <p className="cost">$2000</p>
             </p>
+            
           </div>
         </div>
         <div className="featurecontent">
@@ -83,8 +94,10 @@ function Featured() {
           <div className="title">
             <h5 className='featureTitle'>Tsavo National Park</h5>
             <p className="locator">
-              <IoLocationOutline /> Taita-Taveta County
+              <IoLocationOutline /> Taita-Taveta
+              <p className="cost">$2000</p>
             </p>
+            
           </div>
         </div>
       </div>

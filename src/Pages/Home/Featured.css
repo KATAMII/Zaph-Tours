@@ -1,6 +1,6 @@
 .featuresSection {
     margin-top: 5rem;
-    height: 60vh;
+    
   }
   
   .destinations {
@@ -12,6 +12,7 @@
   
   .feature {
     margin-left: 2rem;
+    text-align: center;
   }
   
   .featurecontent {
@@ -25,7 +26,7 @@
     border-radius: 10px;
     margin-left: 2rem;
     position: relative;
-    overflow: hidden; /* Ensure the image doesn't overflow the container */
+    overflow: hidden;
   }
   
   .featurecontent img {
@@ -53,7 +54,7 @@
   }
   
   .featureTitle {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     padding: 2px;
     font-weight: 600;
   }
@@ -65,7 +66,12 @@
     font-size: 2rem;
     color: red;
   }
-  
+  .cost {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    color: green;
+    font-weight: bold;
+  }
   .locator {
     display: flex;
     align-items: center;

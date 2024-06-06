@@ -1,0 +1,23 @@
+.NewsletterSection{
+    margin-top: 5rem;
+    border: 2px black solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    gap: 1rem;
+}
+.newslet{
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+form{
+   
+    padding: 1px;
+    display: flex;
+    gap: 2rem;
+}
+form input{
+    padding: 1rem;
+}
