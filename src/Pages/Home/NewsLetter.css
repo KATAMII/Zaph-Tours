@@ -11,9 +11,10 @@
     border-radius: 10px;
     box-shadow: -3px -5px 5px 0px rgba(0,0,0,0.46);
     width: 80%;
-    max-width: 600px;
+    max-width: 800px;
     margin: 5rem auto; 
     font-family: 'Roboto', sans-serif;
+    margin-bottom: 2rem;
 }
 
 .newslet {

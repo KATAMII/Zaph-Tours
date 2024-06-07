@@ -20,7 +20,7 @@ function Contact() {
          <div className="part1">
           <h1 className="locate"><FaLocationDot /></h1>
           <p className="located">Our Location</p>
-          <p className="here">Nairobi along Waiyaki Way </p>
+          <p className="here">Muranga Kiharu </p>
          </div>
          <div className="part1" id='part1color'>
           <h1 className="locate" id='locn'><FaPhoneVolume /></h1>
