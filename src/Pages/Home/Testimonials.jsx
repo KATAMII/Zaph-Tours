@@ -2,6 +2,8 @@ import React from 'react';
 import '../Home/Testimonials.css';
 import { FcRating } from "react-icons/fc";
 import lisaimg from '../../assets/Lisa.jpeg';
+import Rosaimg from '../../assets/Rosa.jpeg';
+import Travellers from '../../assets/traveler.jpeg';
 
 function Testimonials() {
   return (
@@ -26,10 +28,10 @@ function Testimonials() {
         <div className="testimonials">
             <div className="testimonialHeader">
                 <div className="image">
-                    <img src={lisaimg} alt="Lisa Image" />
+                    <img src={Rosaimg } alt="Rosa Image" />
                 </div>
                 <div className="nameJob">
-                    <h3 className="name">Lisa Deralosa</h3>
+                    <h3 className="name">Rosa Tessa</h3>
                     <h5 className="job">Tourist</h5>
                 </div>
             </div>
@@ -41,11 +43,11 @@ function Testimonials() {
         <div className="testimonials">
             <div className="testimonialHeader">
                 <div className="image">
-                    <img src={lisaimg} alt="Lisa Image" />
+                    <img src={Travellers} alt="Travellers Image" />
                 </div>
                 <div className="nameJob">
-                    <h3 className="name">Lisa Deralosa</h3>
-                    <h5 className="job">Tourist</h5>
+                    <h3 className="name">The Travellers</h3>
+                    <h5 className="job">Tourists</h5>
                 </div>
             </div>
             <div className="testimony">

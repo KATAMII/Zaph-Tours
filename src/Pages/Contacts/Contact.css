@@ -1,0 +1,20 @@
+.ContactSection{
+
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+margin-top: 1rem;
+}
+.ContactTitle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    margin-top: 1rem;
+    width: 80vh;
+}
+.titlepara{
+    text-align: center;
+}

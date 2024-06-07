@@ -1,4 +1,5 @@
 import React from 'react'
+import '../Trips/Trips.css'
 
 function Trips() {
   return (
