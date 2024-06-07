@@ -1,20 +1,174 @@
 .ContactSection{
-
+font-family: 'poppins',sans-serif;
 display: flex;
 justify-content: center;
 align-items: center;
 flex-direction: column;
 margin-top: 1rem;
 }
+.contactHeading{
+    color: #495B29;
+    font-size: 1.8rem;
+}
+.titlehead{
+    font-size: 1.7rem;
+    color: #333;
+}
+.titlepara{
+    font-weight: 500;
+}
 .ContactTitle{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 2px solid black;
+    padding: 1rem;
     margin-top: 1rem;
     width: 80vh;
+    background-color: #f9f8f5;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.13);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.13);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.13);
+   border-radius: 25px;
 }
 .titlepara{
     text-align: center;
+    margin-top: 1rem;
+}
+.titlepara svg{
+    fill: #495B29;
+    width: 3rem;
+    height: 3rem;
+}
+.part1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin-top: 2rem;
+    width: 40vh;
+    height: 30vh;
+    background-color: #495B29;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    box-shadow: 10px 10px 11px -9px rgba(0,0,0,1);
+-webkit-box-shadow: 10px 10px 11px -9px rgba(0,0,0,1);
+-moz-box-shadow: 10px 10px 11px -9px rgba(0,0,0,1);
+}
+
+.locate svg {
+    fill: #fde789;
+    width: 6vh;
+    height: 6vh;
+}
+.located{
+    color: white;
+    font-size: 1.3rem;
+}
+.here{
+    color: #CFCBBA;
+    font-weight: 500;
+    margin-top: .5rem;
+}
+.iconees{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+#part1color{
+    background-color: #f9f8f5;
+}
+#loct{
+    color:black;
+}
+#locn svg{
+  fill: #495B29;
+}
+#Lo{
+    color: #333;
+}
+.mapRegister {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 2rem;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.map {
+    flex: 1;
+    min-width: 300px;
+    max-width: 600px;
+    height: 450px;
+}
+
+.map iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.formsection {
+    flex: 1;
+    min-width: 300px;
+    max-width: 600px;
+    padding: 1.5rem;
+    background-color: #f9f8f5;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.13);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.13);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.13);
+}
+
+.form2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.form2 input,
+.form2 textarea {
+    width: calc(100% - 2rem); 
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #fff;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.form2 input:focus,
+.form2 textarea:focus {
+    background-color: #eef;
+    border-color: #495B29;
+    outline: none;
+}
+
+.form2 textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+.form2 button {
+    padding: 0.75rem 1.5rem; 
+    background-color: #495B29;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-self: flex-start; 
+    margin-top: 0.5rem;
+}
+
+.form2 button:hover {
+    background-color: #333;
 }
