@@ -112,4 +112,33 @@
   .viewbtn:hover {
     background-color: #0056b3;
   }
+@media (max-width: 768px) {
+    .card1 {
+        flex: 1 1 calc(50% - 1rem);
+        max-width: calc(50% - 1rem);
+    }
+}
+
+@media (max-width: 576px) {
+    .card1 {
+        flex: 1 1 calc(100% - 1rem);
+        max-width: calc(100% - 1rem);
+    }
+
+    .individualPrice {
+        margin-top: 1rem;
+    }
+}
+
+@media (max-width: 432px) {
+    .cards {
+        padding: 0.5rem;
+    }
+
+    .card1 {
+        flex: 1 1 calc(100% - 0.5rem);
+        max-width: calc(100% - 0.5rem);
+        margin-bottom: 1rem;
+    }
+}
   
