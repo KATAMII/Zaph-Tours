@@ -78,4 +78,22 @@
     align-items: center;
     gap: 0.5rem;
   }
+  @media (max-width: 768px) {
+    .featuresSection {
+        margin-top: 2rem; 
+    }
+
+    .feature {
+        margin-left: 0; 
+        margin-bottom: 2rem;
+    }
+}
+@media (max-width: 432px) {
+  .featurecontent{
+    height: 50vh;
+    width: 40vh;
+    margin-left: 0rem;
+  }
+}
+ 
   

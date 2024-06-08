@@ -25,7 +25,8 @@
 .testimonials {
     display: flex;
     flex-wrap: wrap;
-    width: 60vh;
+    width: 100%;
+    max-width: 60vh;
     align-items: center;
     background-color: #e3ecd4;
     border-radius: 15px;
@@ -113,5 +114,36 @@
 
     .para {
         font-size: 0.8rem;
+    }
+}
+@media (max-width: 576px) {
+    .testimonialsTitle {
+        font-size: 1.5rem;
+    }
+
+    .image img {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .name {
+        font-size: 1rem;
+    }
+
+    .job {
+        font-size: 0.8rem;
+    }
+
+    .para {
+        font-size: 0.8rem;
+    }
+}
+@media (max-width: 431px) {
+    .testimonials {
+        max-width: calc(100% - 2rem); 
+    }
+
+    .testimonialsSection {
+        padding: 1rem; 
     }
 }
