@@ -172,3 +172,25 @@ margin-top: 1rem;
 .form2 button:hover {
     background-color: #333;
 }
+@media (max-width: 768px) {
+    .ContactTitle {
+        width: 90%;
+        max-width: 500px;
+    }
+
+    .part1 {
+        width: 90%;
+    }
+
+    .mapRegister,
+    .map,
+    .formsection {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .part1 {
+        height: 20vh;
+    }
+}
