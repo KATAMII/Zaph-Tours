@@ -6,13 +6,15 @@
   font-family: 'Poppins', sans-serif;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  padding: 1em 2em;
+  padding: 0em 1em;
 }
 
 .navbar {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   width: 100%;
@@ -26,11 +28,13 @@
 
 .navLinks {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
 .navlist {
   display: flex;
+  flex-wrap: wrap;
   gap: 2em;
   list-style: none;
 }
@@ -54,11 +58,14 @@
 
 .search {
   display: flex;
+  
   align-items: center;
+  margin-bottom: 1rem;
 }
 
 .search form {
   display: flex;
+  flex-wrap: nowrap;
   align-items: center;
   border-radius: 50px;
   overflow: hidden;
@@ -98,3 +105,4 @@
   padding: 0 0.5em;
   color: #bbb;
 }
+
