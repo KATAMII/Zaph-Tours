@@ -22,7 +22,7 @@ function Header() {
           <form action="">
             <CiSearch className="searchIcon" />
             <input type="text" placeholder='Search Trip here' />
-            <button type='button'>Search</button>
+            <button type='submit'>Search</button>
           </form>
         </div>
       </div>
