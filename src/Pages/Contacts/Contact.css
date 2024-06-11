@@ -100,20 +100,17 @@ margin-top: 1rem;
     width: 100%;
     margin-bottom: 2rem;
 }
-
 .map {
     flex: 1;
     min-width: 300px;
     max-width: 600px;
     height: 450px;
 }
-
 .map iframe {
     width: 100%;
     height: 100%;
     border: 0;
 }
-
 .formsection {
     flex: 1;
     min-width: 300px;
@@ -125,13 +122,11 @@ margin-top: 1rem;
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.13);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.13);
 }
-
 .form2 {
     display: flex;
     flex-direction: column;
     width: 100%;
 }
-
 .form2 input,
 .form2 textarea {
     width: calc(100% - 2rem); 
@@ -143,19 +138,16 @@ margin-top: 1rem;
     background-color: #fff;
     transition: background-color 0.3s ease, border-color 0.3s ease;
 }
-
 .form2 input:focus,
 .form2 textarea:focus {
     background-color: #eef;
     border-color: #495B29;
     outline: none;
 }
-
 .form2 textarea {
     resize: vertical;
     height: 100px;
 }
-
 .form2 button {
     padding: 0.75rem 1.5rem; 
     background-color: #495B29;
@@ -168,7 +160,6 @@ margin-top: 1rem;
     align-self: flex-start; 
     margin-top: 0.5rem;
 }
-
 .form2 button:hover {
     background-color: #333;
 }
@@ -188,7 +179,6 @@ margin-top: 1rem;
         max-width: 100%;
     }
 }
-
 @media (max-width: 576px) {
     .part1 {
         height: 20vh;

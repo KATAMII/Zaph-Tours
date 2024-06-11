@@ -4,7 +4,7 @@ import '../components/Footer.css'
 function Footer() {
   return (
     <div className='footersection'>
-       <p>@copyright Katamii Mwas</p>
+       <p>copyright @ Katamii Mwas</p>
     </div>
   )
 }
